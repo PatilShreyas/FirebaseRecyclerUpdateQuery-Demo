@@ -16,15 +16,13 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(R.layout.activity_main)
 
         button_realtime_db_demo.setOnClickListener(this)
-        button_realtime_db_paging_demo.setOnClickListener(this)
         button_firestore_db_demo.setOnClickListener(this)
         button_firestore_db_paging_demo.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
         val activityClass = when (v) {
-            button_realtime_db_demo -> MainActivity::class.java
-            button_realtime_db_paging_demo -> DatabaseActivity::class.java
+            button_realtime_db_demo -> DatabaseActivity::class.java
             button_firestore_db_demo -> FirestoreActivity::class.java
             button_firestore_db_paging_demo -> FirestorePagingActivity::class.java
             else -> null

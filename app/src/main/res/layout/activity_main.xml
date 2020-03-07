@@ -19,24 +19,21 @@
             android:id="@+id/button_realtime_db_demo"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            style="@style/TintedButton"
             android:text="@string/text_realtime_db_demo" />
-
-        <Button
-            android:id="@+id/button_realtime_db_paging_demo"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/text_realtime_db_paging_demo" />
 
         <Button
             android:id="@+id/button_firestore_db_demo"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            style="@style/TintedButton"
             android:text="@string/text_firestore_db_demo" />
 
         <Button
             android:id="@+id/button_firestore_db_paging_demo"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            style="@style/TintedButton"
             android:text="@string/text_firestore_db_paging_demo" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

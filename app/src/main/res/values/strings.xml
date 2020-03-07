@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">FirebaseRecyclerQueryUpdate-Android</string>
+    <string name="app_name">Firebase Update Query</string>
     <string name="text_realtime_db_demo">Real-time Database Demo</string>
-    <string name="text_realtime_db_paging_demo">Real-time Database Paging Demo</string>
     <string name="text_firestore_db_demo">Cloud Firestore Demo</string>
     <string name="text_firestore_db_paging_demo">Cloud Firestore Paging Demo</string>
+    <string name="text_first_posts">First Posts</string>
+    <string name="text_last_posts">Last Posts</string>
 </resources>
