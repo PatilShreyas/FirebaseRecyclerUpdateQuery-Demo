@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".database.DatabaseActivity" />
+        <activity android:name=".database.DatabasePagingActivity" />
+        <activity android:name=".firestore.FirestoreActivity" />
+        <activity android:name=".firestore.FirestorePagingActivity" />
     </application>
 
 </manifest>

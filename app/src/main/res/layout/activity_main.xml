@@ -6,13 +6,37 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
+        <Button
+            android:id="@+id/button_realtime_db_demo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/text_realtime_db_demo" />
+
+        <Button
+            android:id="@+id/button_realtime_db_paging_demo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/text_realtime_db_paging_demo" />
+
+        <Button
+            android:id="@+id/button_firestore_db_demo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/text_firestore_db_demo" />
+
+        <Button
+            android:id="@+id/button_firestore_db_paging_demo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/text_firestore_db_paging_demo" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
